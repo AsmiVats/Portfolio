@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Asmi Vats</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/public/logo.png" alt="logo">
+                <ul>
+                    <li><a href="#main">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li>
+                    <div class="dropdown">
+                      <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Portfolio
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#skills">Skills</a>
+                        <a class="dropdown-item" href="#edu">Education</a>
+                        <a class="dropdown-item" href="https://github.com/AsmiVats">Projects</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li><a href="#contact">Contact Me</a></li>
+
+                </ul>
+            </nav> 
+            <div class="main">
+                <div class="text">
+                <h1>Hi, I'm <span id="name">Asmi Vats</span>.</h1>
+                <p>I'm a <span id="element"> Web Developer</span></p>
+            </div>
+            <div class="image">
+                <img src="/public/Taka-removebg-preview (1).jpg" alt="">
+            </div>
+            </div> 
+        </div>
+    </div>
+
+    
+    <!-- ABOUT ME -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+            <div class="about-img">
+                <img src="/public/picture.jpg"  alt="Asmi Vats">
+            </div>
+            <div class="about-text">
+                <h1>About Me</h1>
+                <p>Hello, I'm Asmi Vats, a passionate computer science student with a focus on web development. I am driven by my curiosity to learn and my desire to create impactful and user-friendly web solutions. As I continue my journey in the world of technology, I strive to constantly learn and apply new skills to deliver exceptional digital experiences.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- SKILLS -->
+    <div id="skills">
+        <h1>Proficiency</h1>
+        <div class="container">      
+            <p>HTML</p>
+            <div class="progress">
+                <div class="progress-bar" data-progress="95"><span>95%</span></div>
+            </div>
+
+            <p>CSS</p>
+            <div class="progress">
+                <div class="progress-bar" data-progress="80"><span>80%</span></div>
+            </div>
+
+            <p>JavaScript</p>
+            <div class="progress">
+                <div class="progress-bar" data-progress="90"><span>90%</span></div>
+            </div>
+
+            <p>Node Js</p>
+            <div class="progress">
+                <div class="progress-bar" data-progress="90"><span>90%</span></div>
+            </div>
+
+            <p>C++</p>
+            <div class="progress">
+                <div class="progress-bar" data-progress="80"><span>80%</span></div>
+            </div>
+
+            <p>Python</p>
+            <div class="progress">
+                <div class="progress-bar" data-progress="90"><span>90%</span></div>
+            </div>
+        </div>
+    </div>  
+           
+<!-- -------------------  EDUCATION---------------------->
+<div id="edu">
+  <div class="container">
+    <h1>Education</h1>
+
+<ul>
+  <li>
+    <strong>Vellore Institute of Technology, Bhopal</strong>
+    <br>
+    <span>Bachelor of Science in Computer Science</span>
+    <br>
+    <span>GPA: 9.35</span>
+    <br>
+    <span>2022 - 2026</span>
+  </li>
+  <li>
+    <strong>Goethals Public School, Bhagalpur</strong>
+    <br>
+    <span>91.2%</span>
+    <br>
+    <span>12th, 2021</span>
+  </li>
+  <li>
+    <strong>DAV Public School, Bhagalpur</strong>
+    <br>
+    <span>95.2%</span>
+    <br>
+    <span>10th, 2019</span>
+  </li>
+</ul>
+  </div>
+</div>
+
+<!-- -----------------------PROJECTS-------------------------- -->
+
+
+
+<!-- ----------------------CONTACT ME----------------------------- -->
+<div id="contact">
+<div class="contact_me">
+  <a href="https://linktr.ee/asmivats"><button class="button-74" role="button">Contact Me</button></a>
+</div>
+</div>
+
+
+
+
+
+  <script src="main.js"></script>  
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+  var typed = new Typed('#element', {
+    strings: [ 'Student','Web Developer'],
+    typeSpeed: 100,
+  });
+</script>
+</body>
+</html>

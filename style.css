@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #080800;
+    color: #fff;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    padding: 10px 10%;
+}
+nav>img{
+    border-radius: 50%;
+    height: 100px;
+}
+nav{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color: #1fc5e5;
+}
+/* main [text and image] */
+.main{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text{
+    margin-top: 18%;
+    font-size: 30px;
+}
+
+#name{
+    color: #1fc5e5;
+}
+#element{
+    font-family: 'Poppins', sans-serif;
+    color: #a234ed;
+}
+.image{
+    margin: 5% 300px 15% 200px;
+    height:100px ;
+    width: 100px;
+  max-width: 100%;
+  max-height:100%;
+}
+
+
+
+/* ----------DROPDOWN---------------------- */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.btn:hover{
+  color: #1fc5e5;
+}
+
+.dropdown-toggle {
+  font-size: 18px;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  background-color: #080800;
+  border: 1px solid #080800;
+  border-radius: .25rem;
+}
+
+.dropdown-toggle:hover {
+  background-color: #080800;
+}
+
+.dropdown-menu {
+  
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  padding: .5rem 0;
+  background-color: #080800;
+  border: 1px solid #080800;
+  border-radius: .25rem;
+  box-shadow: 0 6px 12px 0 rgba(0,0,0,.175);
+}
+
+.dropdown-menu .dropdown-item {
+  color: white;
+  display: block;
+  padding: .5rem 1.5rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  color: #1fc5e5;
+}
+
+.dropdown-menu .dropdown-item:active {
+  background-color: #080800;
+}
+
+.dropdown-menu .dropdown-item:focus {
+  outline: none;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+
+
+
+
+
+
+
+/* --------------------------about--------------------------- */
+#about{
+    padding: 80px 0;
+    color: #ffe4db;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+.about-img{
+  flex-basis: 35%;
+}
+.about-img img{
+    border-radius: 15px;
+    width: 100%;
+}
+.about-text{
+    flex-basis: 60%;
+}
+.about-text h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+/* ---------------------------------skills------------------------------ */
+#skills{
+    padding: 80px 0;
+    color: #ffe4db;
+}
+#skills h1{
+    font-size: 60px;
+    font-weight: 600;
+    margin-left: 300px;
+}
+#skills .container{
+    width:70%;
+    margin:20px auto;
+    margin-bottom: 200px;
+}
+.progress{
+    width: 100%;
+    height: 25px;
+    background-color: #8d8394;
+    border-radius: 10px;
+}
+
+.progress .progress-bar{
+    height: 100%;
+    width: 0%;
+    opacity: 0;
+    background-color: #a234ed;
+    border-radius: 10px;
+    position: relative;
+    transition: all 0.5s;
+}
+.progress-bar span{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#skills p{
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+/* -----------------------EDUCATION--------------> */
+#edu{
+    width: 80%;
+    margin: auto;
+}
+#edu h1{
+    color:#ffe4db ;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+ #edu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+ #edu ul li {
+    position: relative;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #1fc5e5;
+  }
+
+  strong {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  em {
+    font-size: 14px;
+    font-style: normal;
+    margin-bottom: 5px;
+  }
+
+  #edu span {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+
+/*---------------------- contact me -----------------------------*/
+.contact_me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;;
+}
+  
+.button-74 {
+    background-color: #fbeee0;
+    border: 2px solid #eca892;
+    border-radius: 30px;
+    box-shadow: #a26c5a 4px 4px 0 0;
+    color: #df8364;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-74:hover {
+    background-color: yellow;
+  }
+  
+  .button-74:active {
+    box-shadow: #ffe4db 2px 2px 0 0;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    .button-74 {
+      min-width: 120px;
+      padding: 0 25px;
+    }
+  }
+ /* jaybieurwk */
