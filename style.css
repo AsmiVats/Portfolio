@@ -230,6 +230,8 @@ nav ul li a:hover{
 }
 
  #edu ul {
+    color: #333333;
+    font-weight:bold;
     list-style: none;
     margin: 0;
     padding: 0;
